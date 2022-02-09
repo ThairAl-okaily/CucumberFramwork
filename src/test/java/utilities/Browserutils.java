@@ -1,6 +1,5 @@
 package utilities;
 
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
@@ -10,14 +9,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Browserutils {
-	
-	
+public class BrowserUtils {
+
 	Alert alert;
 	WebDriverWait letswait;
 	Select letsSelect;
 	Actions act;
-	
 	
 	// this method returns true when given element is found
 	// returns false when given element is not found
@@ -115,6 +112,7 @@ public class Browserutils {
 		element.sendKeys(Keys.chord(Keys.CONTROL), "a");
 		element.sendKeys(Keys.DELETE);
 	}
+	
 	
 
 }
